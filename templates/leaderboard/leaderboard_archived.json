@@ -1,0 +1,26 @@
+{
+    "type": "leaderboard",
+    "archived": true,
+    "state": "finished",
+    "titleImage": "https://fb-cdn.fanbook.mobi/fanbook/app/files/chatroom/image/e44d0c51abf9e511dd532dfc5cf05e2a.png",
+    "color": "FE6119",
+    "subtitle": "时间：2023.03.01 —— 2023.03.01",
+    "memberAvatars": [
+        "125113909345521664",
+        "130248494240763904",
+        "236397513324625920",
+        "86490735033065472"
+    ],
+    "memberCount": 1000000000,
+    "top3Players": [
+        "125113909345521664",
+        "130248494240763904"
+    ],
+    "top3ExtraColumn": "胜场",
+    "top3ExtraData": [
+        "5",
+        "10"
+    ],
+    "leaderboardUrl": "https://fanbook.mobi",
+    "gameUrl": "bilibili://"
+}

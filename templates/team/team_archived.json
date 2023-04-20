@@ -1,0 +1,11 @@
+{
+    "type": "team",
+    "maxPlayers": 3,
+    "roomId": "ROOM_ID",
+    "backgroundImage": "https://fb-cdn.fanbook.mobi/fanbook/app/files/chatroom/image/1be2102b49bf839a70247b943443789c.png",
+    "titleImage": "https://fb-cdn.fanbook.mobi/fanbook/app/files/chatroom/image/c7a9d754b7c9fd8e2f8ab2f5b5986a28.png",
+    "color": "FE6119",
+    "gameState": "roomFull",
+    "subtitle": "已归档房间号 99999",
+    "archived": true
+}

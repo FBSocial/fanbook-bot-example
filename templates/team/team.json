@@ -1,0 +1,17 @@
+{
+    "type": "team",
+    "maxPlayers": 3,
+    "roomId": "ROOM_ID",
+    "updateUrl": "http://192.168.89.239:3001/team/updates",
+    "backgroundImage": "https://fb-cdn.fanbook.mobi/fanbook/app/files/chatroom/image/1be2102b49bf839a70247b943443789c.png",
+    "titleImage": "https://fb-cdn.fanbook.mobi/fanbook/app/files/chatroom/image/c7a9d754b7c9fd8e2f8ab2f5b5986a28.png",
+    "color": "FE6119",
+    "gameScheme": "t",
+    "gameDownloadUrl": {
+        "ios": "https://apps.apple.com/cn/app/%E5%90%88%E9%87%91%E5%BC%B9%E5%A4%B4-%E8%A7%89%E9%86%92/id1616812439"
+    },
+    "bindingStatusUrl": "http://192.168.89.239:3001/team/binding/status",
+    "gameBindingPage": "http://www.baidu.com",
+    "gameName": "合金弹头",
+    "subtitle": "房间号 99999"
+}

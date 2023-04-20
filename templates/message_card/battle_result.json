@@ -1,0 +1,163 @@
+{
+    "width": 283,
+    "tag": "column",
+    "crossAxisAlignment": "stretch",
+    "textStyle": {
+        "fontSize": 12,
+        "color": "1a2033"
+    },
+    "children": [
+        {
+            "tag": "container",
+            "padding": "10,12,10,10",
+            "gradient": {
+                "colors": [
+                    "26FE6119",
+                    "00FE6119"
+                ],
+                "begin": "0.5,0",
+                "end": "0.5,1"
+            },
+            "child": {
+                "tag": "column",
+                "crossAxisAlignment": "start",
+                "children": [
+                    {
+                        "tag": "image",
+                        "height": 24,
+                        "src": "1::00::0::aHR0cHM6Ly9mYi1jZG4uZmFuYm9vay5tb2JpL2ZhbmJvb2svYXBwL2ZpbGVzL2NoYXRyb29tL2ltYWdlLzkyMTdmNDVmNTVlMjAzNmZiZDU1NzM2M2Q4OGI1ZGQ3LnBuZw=="
+                    },
+                    {
+                        "tag": "text",
+                        "data": "房间号 97908969",
+                        "padding": "0,8,0,0",
+                        "style": {
+                            "fontSize": 13,
+                            "color": "767985"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "text",
+            "data": "恭喜你，获得第一名！",
+            "padding": "10,0",
+            "style": {
+                "fontSize": 13,
+                "color": "767985"
+            }
+        },
+        {
+            "padding": "10,8,10,4",
+            "tag": "userName",
+            "id": "86654728397791232",
+            "style": {
+                "fontSize": 13,
+                "color": "198CFE",
+                "fontWeight": "medium"
+            }
+        },
+        {
+            "tag": "row",
+            "padding": "0,20,0,0",
+            "children": [
+                {
+                    "tag": "container",
+                    "width": 54,
+                    "margin": "0,0,23,0",
+                    "aligment": "0.5",
+                    "child": {
+                        "tag": "text",
+                        "textAlign": "center",
+                        "data": "名次"
+                    }
+                },
+                {
+                    "tag": "text",
+                    "padding": "32,0,0,0",
+                    "data": "用户",
+                    "flex": "tight"
+                },
+                {
+                    "tag": "container",
+                    "width": 54,
+                    "aligment": "0.5",
+                    "child": {
+                        "tag": "text",
+                        "textAlign": "center",
+                        "data": "时间"
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "row",
+            "height": 35,
+            "children": [
+                {
+                    "tag": "container",
+                    "width": 54,
+                    "margin": "0,0,23,0",
+                    "aligment": "0.5",
+                    "child": {
+                        "tag": "text",
+                        "textAlign": "center",
+                        "data": "1"
+                    }
+                },
+                {
+                    "tag": "row",
+                    "flex": "tight",
+                    "children": [
+                        {
+                            "tag": "userAvatar",
+                            "id": "86654728397791232",
+                            "size": 24
+                        },
+                        {
+                            "flex": "tight",
+                            "padding": "8,0,0,0",
+                            "tag": "userName",
+                            "id": "86654728397791232"
+                        }
+                    ]
+                },
+                {
+                    "tag": "container",
+                    "width": 54,
+                    "aligment": "0.5",
+                    "child": {
+                        "tag": "text",
+                        "textAlign": "center",
+                        "data": "2.22"
+                    }
+                }
+            ]
+        },
+        {
+            "tag": "row",
+            "padding": "10,12",
+            "children": [
+                {
+                    "flex": "tight",
+                    "tag": "button",
+                    "category": "outlined",
+                    "label": "查看榜单",
+                    "size": "medium",
+                    "widthUnlimited": true,
+                    "color": "FF7D66"
+                },
+                {
+                    "flex": "tight",
+                    "padding": "10,0,0,0",
+                    "tag": "button",
+                    "label": "我要参见",
+                    "size": "medium",
+                    "widthUnlimited": true,
+                    "color": "FF7D66"
+                }
+            ]
+        }
+    ]
+}
