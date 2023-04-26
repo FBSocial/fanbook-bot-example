@@ -10,6 +10,7 @@ import { Command } from 'commander';
 import OpenApi from '../server/OpenApi';
 import TeamCommandProcessor from './TeamCommandProcessor';
 import LeaderboardCommandProcessor from './LeaderboardCommandProcessor';
+import InlineKeyboardCommandProcessor from './InlineKeyboardCommandProcessor';
 
 const program = new Command();
 
@@ -53,7 +54,18 @@ function makeLeaderboardCommand(): Command {
         .action((messageId) => processor.archiveTeam(messageId));
     return team;
 }
+function makeInlineKeyboardCommand() {
+    const processor = new InlineKeyboardCommandProcessor();
+    const cmd = program
+        .command('inline_keyboard <subcommand>')
+        .description('内联键盘相关指令');
+    cmd.command('normal')
+        .description('发送一个普通的内联键盘消息')
+        .action(() => processor.sendInlineKeyboardMessage());
+    return cmd;
+}
 program.addCommand(makeTeamCommand());
 program.addCommand(makeLeaderboardCommand());
+program.addCommand(makeInlineKeyboardCommand());
 
 program.parse(process.argv);

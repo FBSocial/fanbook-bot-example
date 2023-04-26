@@ -1,0 +1,34 @@
+{
+    "inline_keyboard": [
+        [
+            {
+                "text": "Send Message",
+                "is_command": true
+            }
+        ],
+        [
+            {
+                "text": "Callback",
+                "callback_data": "go"
+            },
+            {
+                "text": "Callback",
+                "callback_data": "go2"
+            }
+        ],
+        [
+            {
+                "text": "URL",
+                "url": "https://fanbook.mobi"
+            },
+            {
+                "text": "Mini Program",
+                "app_id": "https://fanbook.mobi"
+            },
+            {
+                "text": "Button3-3",
+                "callback_data": "go"
+            }
+        ]
+    ]
+}
